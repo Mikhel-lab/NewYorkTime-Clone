@@ -1,0 +1,843 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+header {
+    position: fixed;
+    width:100%;
+    top:0;
+    padding: 0;
+    z-index:1;
+    background: white;
+    height: 60px;
+    line-height: 50px;
+    border-bottom:1px solid gray;
+}
+.container{
+  margin-top: 61px;
+  z-index: -1;
+}
+.right{
+    position: absolute;
+    right:50px;
+    top:0;
+}
+.right button{
+    padding:10px 20px;
+}
+
+.center {
+    position: absolute;
+    top:0;
+    left:40%;
+    font-size: 30px;
+}
+
+.left{
+    position: absolute;
+    left:50px;
+    top:0;
+    
+   
+}
+.left h3 {
+    display:inline;
+}
+
+
+.details{
+    width:600px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom:60px;
+   
+}
+
+.details_img {
+    width:1200px;
+    margin: auto;
+    text-align: justify;
+    margin-bottom:60px;
+}
+
+.details_img h2 {
+    font-size: 3rem;
+    font-style: italic;
+    text-align:center;
+    margin: 2rem auto;
+}
+
+.details .date{  
+    float:left;
+}
+.details .icons{
+float:right;
+
+}
+
+.details p{
+margin-top:40px;
+font-size: 20px;
+line-height: 30px;
+margin-bottom:20px;
+}
+
+.two_sides{
+ position: relative;
+}
+
+
+.left_side{
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+    max-width:800px;  
+}
+.left_side p{
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.right_side{
+ max-width:220px;
+ margin-top: 160px;
+ position: absolute;
+ right:10vw;
+ top:60px;
+}
+.img-div {
+   display:inline-block;
+}
+
+.img-div img{
+   float:left;
+   margin:5px;
+    
+}
+
+.img-div p{
+    padding-top:6px;
+}
+
+.signup{
+    width:200px;
+    line-height:15px;
+}
+
+.signup button{
+    width:200px;
+    box-sizing: border-box;
+    padding:5px 20px;
+    margin: 10px 0;
+}
+.signup h3 {
+    margin: 50px 0 10px 0;
+}
+.overflow_hide{
+    overflow:hidden;
+    margin:auto;
+}
+.overflow_hide h3 {
+    margin-bottom: -30px;
+}
+.inflation_text p{
+    font-size:15px;
+    line-height:20px;
+    text-align: left;
+}
+
+.theory_items {
+    width: 700px;
+    background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png);
+    background-position:left;
+    background-size:700px 850px;
+    background-repeat: no-repeat;
+   
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 1% 1%;
+}
+
+.item {
+    width:170px;
+    margin-top:100px;
+}
+
+#cosmos{
+    display:flex;
+    width:90%;
+    justify-content: center;
+}
+.title {
+    margin-top: -50px;
+}
+.title hr {
+    margin-bottom:10px;
+    width:50px;
+}
+
+.title p{
+    font-size:20px;
+    line-height: 20px;
+    margin-top:20px;
+}
+
+
+.figcap {
+    font-size:12px ;
+    color:gray ;
+    line-height:15px ;
+    margin-bottom:20px ;
+    text-align:center;
+}
+
+
+
+.read {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 19vw;
+    
+}
+
+.details_5{
+    height:300px;
+    width:80%;
+    margin:40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.details_6 {
+    width:80%;
+    margin:0 auto;
+}
+.more{
+    text-align: left;
+    border-top: 1px solid black;
+    width:900px;
+    margin-right:30px;
+ 
+}
+
+.popular{
+text-align: left;
+padding:10px 0;
+border-top: 1px solid black;
+width:300px;
+}
+
+.popular p{
+    border-top: 1px solid gray;
+    padding:5px 0;
+    font-size:15px;
+    line-height: 20px;
+    color: black;
+}
+.popular a {
+    color:black;
+}
+
+.media {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 40px;
+    margin: 20px 0;
+}
+
+.media_item {
+    width:270px;
+    font-size:15px;
+    line-height:20px;
+}
+
+.media_item figcaption{
+    text-align:right;
+    margin-bottom:2px;
+}
+
+.media_item p{
+    margin: 2px 0;
+}
+
+.heading{
+    padding:10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading span {
+    padding:2px 10px;
+    border: 1px solid black;
+    border-radius:2px;
+}
+
+.media_item img{
+    width:270px;
+}
+
+.footer_title {
+    border-top: 4px solid lightgray;
+    display:flex;
+    justify-content: space-between;
+    padding:10px 0;
+}
+.footer_title a {
+    color:black;
+}
+
+.footer_top{
+ display: flex;
+ justify-content: space-between;
+ border-bottom: 1px solid lightgray;
+ padding-bottom:20px;
+}
+.footer_items p, .footer_items h3{
+ line-height: 20px;
+ font-size:15px;
+ margin:5px;
+
+}
+.footer_items:last-child{
+    padding-left:10px;
+    border-left: 1px solid lightgray;
+}
+
+.footer_bottom{
+    font-size:13px;
+    color:lightgray;
+    padding:10px 0 20px 0;
+    text-align:center;
+
+}
+
+.media_item a {
+    color: black;
+}
+.heading a {
+    color: black;
+}
+
+
+.footer_top a {
+    color:black;
+}
+.footer_bottom a{
+    color:lightgray;
+}
+
+.footer_bottom ul li {
+    list-style-type:none;
+    margin-right:10px;
+    
+}
+
+.footer_bottom ul {
+    display:flex;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+footer a{
+    text-decoration: none;
+    
+}
+
+
+button{
+    color: white;
+    align-items: flex-start;
+    background-color: grey;
+}
+
+/* ul.slider{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+    height: 350px; 
+    
+ } */
+
+
+ul li.slide{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	opacity: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 10% 8%;
+	transition: opacity 2s;
+    background-attachment: fixed;
+    
+}
+
+ul li.slide:nth-child(1){
+    background-image: url(../images/Coronavirus1.jpg);
+    
+}
+ul li.slide:nth-child(2){
+	background-image: url(../images/coronavirus2.jpg);
+}
+ul li.slide:nth-child(3){
+	background-image: url(../images/news.jpg);
+}
+ul li.slide:nth-child(4){
+	background-image: url(../images/news1.jpg);
+}
+
+ul li.slide:nth-child(5){
+	background-image: url(../images/news2.jpg);
+}
+
+ul li.slide:nth-child(5){
+	background-image: url(../images/news3.jpg);
+}
+
+ul li.slide:nth-child(5){
+	background-image: url(../images/news4.jpg);
+}
+ul li.slide.active{
+	opacity: 1;
+}
+
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+#clone{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.top-panel{
+    position: relative;
+}
+
+.nav-panel{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    display: none;
+}
+
+.nav-panel a {
+    color: black;
+}
+
+
+
+@media  (max-width: 1200px) {
+     div.heading{
+         font-size: 40px;
+         padding-left: 40px;
+     }
+    div h4 a {
+        font-size: 10px;
+        display: block;
+        /* position: fixed; */
+        /* text-align: center; */
+
+
+    }
+}
+
+@media  (max-width: 1200px){
+    div.right{
+        font-size: 30px ;
+        padding-left: 60px;
+    }
+     button{
+         font-size: 10px;
+        padding-left: 30px;
+        position: fixed;
+       
+    }
+    h3{
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+
+    header {
+        position: fixed;
+        width:100%;
+        top:0;
+        padding: 0;
+        z-index:1;
+        background: white;
+        height: 60px;
+        line-height: 50px;
+        border-bottom:1px solid gray;
+    }
+
+    .container{
+        margin-top: 61px;
+        z-index: -1;
+      }
+      .right{
+          position: absolute;
+          right:50px;
+          top:0;
+      }
+      .right button{
+          padding:10px 20px;
+      }
+      
+      .center {
+          position: absolute;
+          top:0;
+          left:40%;
+          font-size: 30px;
+      }
+      
+      .left{
+          position: absolute;
+          left:50px;
+          top:0;
+          
+         
+      }
+      .left h3 {
+          display:inline;
+      }
+      
+      
+      .details{
+          width:600px;
+          margin: auto;
+          text-align: justify;
+          margin-bottom:60px;
+         
+      }
+      
+      .details_img {
+          width:1200px;
+          margin: auto;
+          text-align: justify;
+          margin-bottom:60px;
+      }
+      
+      .details_img h2 {
+          font-size: 3rem;
+          font-style: italic;
+          text-align:center;
+          margin: 2rem auto;
+      }
+      
+      .details .date{  
+          float:left;
+      }
+      .details .icons{
+      float:right;
+      
+      }
+      
+      .details p{
+      margin-top:40px;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom:20px;
+      }
+      
+      .two_sides{
+       position: relative;
+      }
+      
+      
+      .left_side{
+          text-align: justify;
+          font-size: 20px;
+          line-height: 30px;
+          max-width:800px;  
+      }
+      .left_side p{
+          margin-top:40px;
+          margin-bottom:20px;
+      }
+      
+      .right_side{
+       max-width:220px;
+       margin-top: 160px;
+       position: absolute;
+       right:10vw;
+       top:60px;
+      }
+      .img-div {
+         display:inline-block;
+      }
+      
+      .img-div img{
+         float:left;
+         margin:5px;
+          
+      }
+      
+      .img-div p{
+          padding-top:6px;
+      }
+      
+      .signup{
+          width:200px;
+          line-height:15px;
+      }
+      
+      .signup button{
+          width:200px;
+          box-sizing: border-box;
+          padding:5px 20px;
+          margin: 10px 0;
+      }
+      .signup h3 {
+          margin: 50px 0 10px 0;
+      }
+      .overflow_hide{
+          overflow:hidden;
+          margin:auto;
+      }
+      .overflow_hide h3 {
+          margin-bottom: -30px;
+      }
+      .inflation_text p{
+          font-size:15px;
+          line-height:20px;
+          text-align: left;
+      }
+      
+      .theory_items {
+          width: 700px;
+          background-image: url(https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-720.png);
+          background-position:left;
+          background-size:700px 850px;
+          background-repeat: no-repeat;
+         
+          display:grid;
+          grid-template-columns: 25% 25% 25% 25%;
+          grid-template-rows: 50% 50%;
+          grid-gap: 1% 1%;
+      }
+      
+      .item {
+          width:170px;
+          margin-top:100px;
+      }
+      
+      #cosmos{
+          display:flex;
+          width:90%;
+          justify-content: center;
+      }
+      .title {
+          margin-top: -50px;
+      }
+      .title hr {
+          margin-bottom:10px;
+          width:50px;
+      }
+      
+      .title p{
+          font-size:20px;
+          line-height: 20px;
+          margin-top:20px;
+      }
+      
+      
+      .figcap {
+          font-size:12px ;
+          color:gray ;
+          line-height:15px ;
+          margin-bottom:20px ;
+          text-align:center;
+      }
+      
+      
+      
+      .read {
+          display: grid;
+          grid-template-columns: 50% 50%;
+          grid-column-gap: 19vw;
+          
+      }
+      
+      .details_5{
+          height:300px;
+          width:80%;
+          margin:40px auto;
+          display: flex;
+          justify-content: center;
+      }
+      
+      
+      
+      .details_6 {
+          width:80%;
+          margin:0 auto;
+      }
+      .more{
+          text-align: left;
+          border-top: 1px solid black;
+          width:900px;
+          margin-right:30px;
+       
+      }
+      
+      .popular{
+      text-align: left;
+      padding:10px 0;
+      border-top: 1px solid black;
+      width:300px;
+      }
+      
+      .popular p{
+          border-top: 1px solid gray;
+          padding:5px 0;
+          font-size:15px;
+          line-height: 20px;
+          color: black;
+      }
+      .popular a {
+          color:black;
+      }
+      
+      .media {
+          display: grid;
+          grid-template-columns: 30% 30% 30%;
+          grid-gap: 40px;
+          margin: 20px 0;
+      }
+      
+      .media_item {
+          width:270px;
+          font-size:15px;
+          line-height:20px;
+      }
+      
+      .media_item figcaption{
+          text-align:right;
+          margin-bottom:2px;
+      }
+      
+      .media_item p{
+          margin: 2px 0;
+      }
+      
+      .heading{
+          padding:10px 0;
+          display: flex;
+          justify-content: space-between;
+      }
+      
+      .heading span {
+          padding:2px 10px;
+          border: 1px solid black;
+          border-radius:2px;
+      }
+      
+      .media_item img{
+          width:270px;
+      }
+      
+      .footer_title {
+          border-top: 4px solid lightgray;
+          display:flex;
+          justify-content: space-between;
+          padding:10px 0;
+      }
+      .footer_title a {
+          color:black;
+      }
+      
+      .footer_top{
+       display: flex;
+       justify-content: space-between;
+       border-bottom: 1px solid lightgray;
+       padding-bottom:20px;
+      }
+      .footer_items p, .footer_items h3{
+       line-height: 20px;
+       font-size:15px;
+       margin:5px;
+      
+      }
+      .footer_items:last-child{
+          padding-left:10px;
+          border-left: 1px solid lightgray;
+      }
+      
+      .footer_bottom{
+          font-size:13px;
+          color:lightgray;
+          padding:10px 0 20px 0;
+          text-align:center;
+      
+      }
+      
+      .media_item a {
+          color: black;
+      }
+      .heading a {
+          color: black;
+      }
+      
+      
+      .footer_top a {
+          color:black;
+      }
+      .footer_bottom a{
+          color:lightgray;
+      }
+      
+      .footer_bottom ul li {
+          list-style-type:none;
+          margin-right:10px;
+          
+      }
+      
+      .footer_bottom ul {
+          display:flex;
+          justify-content: center;
+          padding-bottom: 100px;
+      }
+      footer a{
+          text-decoration: none;
+          
+      }
+      
+      
+      button{
+          color: white;
+          align-items: flex-start;
+          background-color: grey;
+      }
+      
+
+
+
+ }
+/* @media screen and (max-width: 600px), (max-height: 500px)  */
+
+
+
